@@ -93,7 +93,7 @@
 }
 
 .imagem-inicial {
-    width: 100%;
+    width: 622px;
     height: 400px;
 }
 
@@ -129,9 +129,9 @@
     border-radius: 10px;
     background-color: #1f234c;
 }
-@media (max-width:768px){
+@media (max-width:767px){
     .background-group{
-        height: 250px;
+        height: 350px;
     }
 }
 
@@ -150,6 +150,17 @@
     border-radius: 20px;
     color: white;
     font-weight: bolder;
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .botao-group {
+        width: 240px;
+        height: 64px;
+    }
+    .background-group{
+        height: 200px;
+    }
 
 }
 
